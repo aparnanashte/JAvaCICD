@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: CICD
-        working-directory: /home/ubuntu
+        working-directory: /home/ubuntu/JAvaCICD
         run: git pull
 
       # Runs a set of commands using the runners shell
